@@ -323,7 +323,7 @@ public final class FoodBiteRegistry {
                 .create(3, PURPLE_POTATO_PUREE_BLOCK, PURPLE_POTATO_PUREE_ITEM));
 
         SPICY_PROTON_HEAD = INSTANCE.registerFoodData("spicy_proton_head", FoodData
-                .create(4, SPICY_PROTON_HEAD_BLOCK, SPICY_PROTON_HEAD_ITEM));
+                .create(3, SPICY_PROTON_HEAD_BLOCK, SPICY_PROTON_HEAD_ITEM));
 
         DELICIOUS_INTESTINE = INSTANCE.registerFoodData("delicious_intestine", FoodData
                 .create(3, DELICIOUS_INTESTINE_BLOCK, DELICIOUS_INTESTINE_ITEM)

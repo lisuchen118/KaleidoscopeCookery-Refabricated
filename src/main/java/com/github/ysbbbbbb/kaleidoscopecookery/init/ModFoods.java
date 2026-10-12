@@ -1005,7 +1005,7 @@ public interface ModFoods {
 
     // 麻辣智子头
     FoodProperties SPICY_PROTON_HEAD_BLOCK = (new FoodProperties.Builder())
-            .nutrition(5).saturationMod(0.5F)
+            .nutrition(7).saturationMod(0.5F)
             .effect(new MobEffectInstance(HUNGER, 200), 0.5F)
             .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 2400), 1.0F)
             .alwaysEat().build();
