@@ -205,6 +205,10 @@ public final class ModCreativeTabs {
                     output.accept(ModItems.HUI_NOODLE);
                     output.accept(ModItems.UDON_NOODLE);
                     output.accept(ModItems.HOT_DRY_NOODLES);
+                    // 定制食物
+                    output.accept(ModItems.FLOWER_KNIFE_COD);
+                    output.accept(ModItems.CHOCOLATE_WATERMELON);
+                    output.accept(ModItems.STRAWBERRY_PUMPKIN_PIE);
                     // 硬菜
                     FoodBiteRegistry.FOOD_DATA_MAP.keySet().forEach(foodName -> {
                         // 疙瘩汤之前加入厚切火腿片

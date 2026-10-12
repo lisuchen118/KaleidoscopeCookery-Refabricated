@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "kaleidoscope_cookery:block/blue_cheese",
+		"particle": "kaleidoscope_cookery:block/plate"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [7, 0, 14, 1], "texture": "#1"},
+				"east": {"uv": [7, 0, 14, 1], "texture": "#1"},
+				"south": {"uv": [7, 0, 14, 1], "texture": "#1"},
+				"west": {"uv": [7, 0, 14, 1], "texture": "#1"},
+				"up": {"uv": [7, 7, 0, 0], "texture": "#1"},
+				"down": {"uv": [7, 7, 0, 14], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:player_head"
+    },
+    "S": {
+      "item": "farm_and_charm:strawberry"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "C": {
+      "item": "minecraft:cake"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "SCS"
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:october_in_cake"
+  },
+  "show_notification": true
+}

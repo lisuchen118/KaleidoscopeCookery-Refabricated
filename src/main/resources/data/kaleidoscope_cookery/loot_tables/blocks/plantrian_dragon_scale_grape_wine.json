@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "kaleidoscope_cookery:plantrian_dragon_scale_grape_wine",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "bites": "0"
+                  }
+                }
+              ],
+              "name": "kaleidoscope_cookery:plantrian_dragon_scale_grape_wine"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "supplementaries:jar"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

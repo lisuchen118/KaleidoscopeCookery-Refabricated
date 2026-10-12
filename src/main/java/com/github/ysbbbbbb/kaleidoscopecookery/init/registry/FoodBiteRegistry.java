@@ -19,6 +19,42 @@ import java.util.List;
 import java.util.Map;
 
 import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.*;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BEAN_JUICE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BEAN_JUICE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BLUE_CHEESE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BLUE_CHEESE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BRAIN_SOUP_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.BRAIN_SOUP_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.CHARCOAL_BROILING_MISHA_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.CHARCOAL_BROILING_MISHA_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.CHEXIAYA_BLUEBERRY_PUDDING_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.CHEXIAYA_BLUEBERRY_PUDDING_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.DELICIOUS_INTESTINE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.DELICIOUS_INTESTINE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.HOT_MEW_SOUP_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.HOT_MEW_SOUP_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.LAMB_CHOP_PILAF_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.LAMB_CHOP_PILAF_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.OCTOBER_IN_CAKE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.OCTOBER_IN_CAKE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.ORANGE_BLACK_TEA_MIXIAN_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.ORANGE_BLACK_TEA_MIXIAN_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PIXEL_SOUP_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PIXEL_SOUP_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PURPLE_POTATO_PUREE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.PURPLE_POTATO_PUREE_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.RAINBOW_PORK_BONE_RAMEN_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.RAINBOW_PORK_BONE_RAMEN_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.SPICY_PROTON_HEAD_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.SPICY_PROTON_HEAD_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.SQUIRREL_FISH_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.SQUIRREL_FISH_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.WEST_LAKE_FISH_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.WEST_LAKE_FISH_ITEM;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.WYAOW_ROSE_WINE_BLOCK;
+import static com.github.ysbbbbbb.kaleidoscopecookery.init.ModFoods.WYAOW_ROSE_WINE_ITEM;
 
 public final class FoodBiteRegistry {
     public static final Map<ResourceLocation, FoodData> FOOD_DATA_MAP = Maps.newLinkedHashMap();
@@ -70,6 +106,25 @@ public final class FoodBiteRegistry {
     public static ResourceLocation WARPED_FUNGUS_POT_SOUP;
     public static ResourceLocation CRIMSON_FUNGUS_POT_SOUP;
     public static ResourceLocation BUDDHA_JUMPS_OVER_THE_WALL;
+
+    public static ResourceLocation PIXEL_SOUP;
+    public static ResourceLocation RAINBOW_PORK_BONE_RAMEN;
+    public static ResourceLocation BRAIN_SOUP;
+    public static ResourceLocation BEAN_JUICE;
+    public static ResourceLocation HOT_MEW_SOUP;
+    public static ResourceLocation WYAOW_ROSE_WINE;
+    public static ResourceLocation ORANGE_BLACK_TEA_MIXIAN;
+    public static ResourceLocation PLANTRIAN_DRAGON_SCALE_GRAPE_WINE;
+    public static ResourceLocation CHARCOAL_BROILING_MISHA;
+    public static ResourceLocation PURPLE_POTATO_PUREE;
+    public static ResourceLocation SPICY_PROTON_HEAD;
+    public static ResourceLocation DELICIOUS_INTESTINE;
+    public static ResourceLocation WEST_LAKE_FISH;
+    public static ResourceLocation SQUIRREL_FISH;
+    public static ResourceLocation LAMB_CHOP_PILAF;
+    public static ResourceLocation BLUE_CHEESE;
+    public static ResourceLocation OCTOBER_IN_CAKE;
+    public static ResourceLocation CHEXIAYA_BLUEBERRY_PUDDING;
 
     public static void init() {
 
@@ -233,6 +288,64 @@ public final class FoodBiteRegistry {
         //  ========================== 其他 ==========================
         GOLDEN_SALAD = INSTANCE.registerFoodData("golden_salad", FoodData
                 .create(6, GOLDEN_SALAD_BLOCK, GOLDEN_SALAD_ITEM));
+
+        // ========================== 定制食物 ==========================
+
+        PIXEL_SOUP = INSTANCE.registerFoodData("pixel_soup", FoodData
+                .create(3, PIXEL_SOUP_BLOCK, PIXEL_SOUP_ITEM));
+
+        RAINBOW_PORK_BONE_RAMEN = INSTANCE.registerFoodData("rainbow_pork_bone_ramen", FoodData
+                .create(3, RAINBOW_PORK_BONE_RAMEN_BLOCK, RAINBOW_PORK_BONE_RAMEN_ITEM)
+                .addLootItems(Items.BONE, Items.BONE));
+
+        BRAIN_SOUP = INSTANCE.registerFoodData("brain_soup", FoodData
+                .create(3, BRAIN_SOUP_BLOCK, BRAIN_SOUP_ITEM));
+
+        BEAN_JUICE = INSTANCE.registerFoodData("bean_juice", FoodData
+                .create(3, BEAN_JUICE_BLOCK, BEAN_JUICE_ITEM));
+
+        HOT_MEW_SOUP = INSTANCE.registerFoodData("hot_mew_soup", FoodData
+                .create(4, HOT_MEW_SOUP_BLOCK, HOT_MEW_SOUP_ITEM));
+
+        WYAOW_ROSE_WINE = INSTANCE.registerFoodData("wyaow_rose_wine", FoodData
+                .create(3, WYAOW_ROSE_WINE_BLOCK, WYAOW_ROSE_WINE_ITEM));
+
+        ORANGE_BLACK_TEA_MIXIAN = INSTANCE.registerFoodData("orange_black_tea_mixian", FoodData
+                .create(3, ORANGE_BLACK_TEA_MIXIAN_BLOCK, ORANGE_BLACK_TEA_MIXIAN_ITEM));
+
+        PLANTRIAN_DRAGON_SCALE_GRAPE_WINE = INSTANCE.registerFoodData("plantrian_dragon_scale_grape_wine", FoodData
+                .create(3, PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_BLOCK, PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_ITEM));
+
+        CHARCOAL_BROILING_MISHA = INSTANCE.registerFoodData("charcoal_broiling_misha", FoodData
+                .create(4, CHARCOAL_BROILING_MISHA_BLOCK, CHARCOAL_BROILING_MISHA_ITEM));
+
+        PURPLE_POTATO_PUREE = INSTANCE.registerFoodData("purple_potato_puree", FoodData
+                .create(3, PURPLE_POTATO_PUREE_BLOCK, PURPLE_POTATO_PUREE_ITEM));
+
+        SPICY_PROTON_HEAD = INSTANCE.registerFoodData("spicy_proton_head", FoodData
+                .create(4, SPICY_PROTON_HEAD_BLOCK, SPICY_PROTON_HEAD_ITEM));
+
+        DELICIOUS_INTESTINE = INSTANCE.registerFoodData("delicious_intestine", FoodData
+                .create(3, DELICIOUS_INTESTINE_BLOCK, DELICIOUS_INTESTINE_ITEM)
+                .addLootItems(Items.COCOA_BEANS));
+
+        WEST_LAKE_FISH = INSTANCE.registerFoodData("west_lake_fish", FoodData
+                .create(2, WEST_LAKE_FISH_BLOCK, WEST_LAKE_FISH_ITEM));
+
+        SQUIRREL_FISH = INSTANCE.registerFoodData("squirrel_fish", FoodData
+                .createOneByTwo(4, SQUIRREL_FISH_BLOCK, SQUIRREL_FISH_ITEM));
+
+        LAMB_CHOP_PILAF = INSTANCE.registerFoodData("lamb_chop_pilaf", FoodData
+                .create(3, LAMB_CHOP_PILAF_BLOCK, LAMB_CHOP_PILAF_ITEM));
+
+        BLUE_CHEESE = INSTANCE.registerFoodData("blue_cheese", FoodData
+                .create(4, BLUE_CHEESE_BLOCK, BLUE_CHEESE_ITEM));
+
+        OCTOBER_IN_CAKE = INSTANCE.registerFoodData("october_in_cake", FoodData
+                .create(4, OCTOBER_IN_CAKE_BLOCK, OCTOBER_IN_CAKE_ITEM));
+
+        CHEXIAYA_BLUEBERRY_PUDDING = INSTANCE.registerFoodData("chexiaya_blueberry_pudding", FoodData
+                .create(3, CHEXIAYA_BLUEBERRY_PUDDING_BLOCK, CHEXIAYA_BLUEBERRY_PUDDING_ITEM));
     }
 
     public ResourceLocation registerFoodData(ResourceLocation foodName, FoodData data) {

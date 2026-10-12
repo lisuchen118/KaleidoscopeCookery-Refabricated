@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "meadow"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:melon_slice"
+  },
+  "ingredients": [
+    {
+      "item": "bakery:chocolate_jam"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:chocolate_watermelon"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

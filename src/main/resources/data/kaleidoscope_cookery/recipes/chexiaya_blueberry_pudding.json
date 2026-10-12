@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vinery",
+        "biomeswevegone",
+        "handcrafted"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:player_head"
+    },
+    "C": {
+      "item": "vinery:cherry"
+    },
+    "B": {
+      "item": "biomeswevegone:blueberries"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "handcrafted:white_plate"
+    }
+  },
+  "pattern": [
+    "ECE",
+    "BPB",
+    "MWM"
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:chexiaya_blueberry_pudding"
+  },
+  "show_notification": true
+}

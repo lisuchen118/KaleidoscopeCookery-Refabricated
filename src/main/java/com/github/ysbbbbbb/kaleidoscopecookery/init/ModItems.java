@@ -162,6 +162,11 @@ public final class ModItems {
     public static final Item ZONGZI = new FoodWithEffectsItem(ModFoods.ZONGZI);
     public static final Item BAMBOO_TUBE_RICE = new BambooTubeRiceBlockItem(ModBlocks.BAMBOO_TUBE_RICE, ModFoods.BAMBOO_TUBE_RICE);
 
+    // 定制食物
+    public static final Item FLOWER_KNIFE_COD = new Item(new Item.Properties().food(ModFoods.FLOWER_KNIFE_COD));
+    public static final Item CHOCOLATE_WATERMELON = new Item(new Item.Properties().food(ModFoods.CHOCOLATE_WATERMELON));
+    public static final Item STRAWBERRY_PUMPKIN_PIE = new Item(new Item.Properties().food(ModFoods.STRAWBERRY_PUMPKIN_PIE));
+
     // 小碗菜和盖饭
     public static final Item COOKED_RICE = new BowlFoodOnlyItem(ModFoods.COOKED_RICE, Items.BOWL);
     public static final Item EGG_FRIED_RICE = new BowlFoodOnlyItem(ModFoods.EGG_FRIED_RICE);
@@ -356,6 +361,11 @@ public final class ModItems {
         Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "sticky_rice_cake"), STICKY_RICE_CAKE);
         Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "zongzi"), ZONGZI);
         Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "bamboo_tube_rice"), BAMBOO_TUBE_RICE);
+
+        // 定制食物
+        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "flower_knife_cod"), FLOWER_KNIFE_COD);
+        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "strawberry_pumpkin_pie"), STRAWBERRY_PUMPKIN_PIE);
+        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "chocolate_watermelon"), CHOCOLATE_WATERMELON);
 
         // 小碗菜和盖饭
         Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(KaleidoscopeCookery.MOD_ID, "cooked_rice"), COOKED_RICE);

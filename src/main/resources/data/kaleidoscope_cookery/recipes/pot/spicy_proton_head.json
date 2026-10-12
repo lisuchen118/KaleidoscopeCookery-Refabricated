@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "ubesdelight"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "ubesdelight:garlic"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:spicy_proton_head"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

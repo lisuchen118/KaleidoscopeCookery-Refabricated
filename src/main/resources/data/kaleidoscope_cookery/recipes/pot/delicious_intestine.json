@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "ends_delight",
+        "ubesdelight",
+        "meadow",
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "ends_delight:raw_ender_sausage"
+    },
+    {
+      "item": "ubesdelight:garlic"
+    },
+    {
+      "tag": "forge:ginger"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:delicious_intestine"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

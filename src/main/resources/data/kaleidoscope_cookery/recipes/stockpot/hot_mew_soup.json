@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "supplementaries"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:stockpot",
+  "cooking_bubble_color": 16777215,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/lava_cooking",
+  "finished_bubble_color": 15581901,
+  "finished_texture": "kaleidoscope_cookery:stockpot/default_finished_pink",
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:crops/lettuce"
+    },
+    {
+      "item": "supplementaries:pancake"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:hot_mew_soup"
+  },
+  "soup_base": "minecraft:lava",
+  "time": 300
+}

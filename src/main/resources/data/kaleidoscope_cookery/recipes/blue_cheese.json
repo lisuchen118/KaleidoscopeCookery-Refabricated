@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "adorablehamsterpets",
+        "meadow"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "adorablehamsterpets:cheese"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "kaleidoscope_cookery:caterpillar"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:blue_cheese"
+  }
+}

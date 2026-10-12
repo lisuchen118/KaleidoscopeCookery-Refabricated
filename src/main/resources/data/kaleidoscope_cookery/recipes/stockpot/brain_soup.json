@@ -1,0 +1,29 @@
+{
+  "type": "kaleidoscope_cookery:stockpot",
+  "cooking_bubble_color": 16777215,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/lava_cooking",
+  "finished_bubble_color": 14696999,
+  "finished_texture": "kaleidoscope_cookery:stockpot/default_finished_jade",
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "tag": "forge:mushroom"
+    },
+    {
+      "tag": "forge:mushroom"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:brain_soup"
+  },
+  "soup_base": "minecraft:lava",
+  "time": 300
+}

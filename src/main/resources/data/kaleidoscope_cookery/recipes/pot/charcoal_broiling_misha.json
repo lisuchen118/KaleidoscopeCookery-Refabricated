@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight",
+        "meadow"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "tag": "forge:cooked_rice"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:charcoal_broiling_misha"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

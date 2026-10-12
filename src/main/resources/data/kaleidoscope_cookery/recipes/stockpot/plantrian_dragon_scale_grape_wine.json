@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "supplementaries",
+        "kaleidoscope_tavern",
+        "dragonloot",
+        "paraglider"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "supplementaries:jar"
+  },
+  "cooking_bubble_color": 16777215,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/grape_juice_cooking",
+  "finished_bubble_color": 9279183,
+  "finished_texture": "kaleidoscope_cookery:stockpot/pitcher_plant_drink",
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "kaleidoscope_tavern:ice_grape"
+    },
+    {
+      "item": "dragonloot:dragon_scale"
+    },
+    {
+      "item": "paraglider:heart_container"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:plantrian_dragon_scale_grape_wine"
+  },
+  "soup_base": "minecraft:water",
+  "time": 300
+}

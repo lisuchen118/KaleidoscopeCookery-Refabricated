@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "candlelight"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "candlelight:wine_glass"
+  },
+  "cooking_bubble_color": 16777215,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/default_cooking",
+  "finished_bubble_color": 14711428,
+  "finished_texture": "kaleidoscope_cookery:stockpot/default_finished_red_mushroom",
+  "ingredients": [
+    {
+      "item": "minecraft:player_head"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "tag": "forge:apple_wine"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:wyaow_rose_wine"
+  },
+  "soup_base": "minecraft:water",
+  "time": 300
+}

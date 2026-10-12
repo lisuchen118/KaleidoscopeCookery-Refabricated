@@ -1,0 +1,42 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "adorablehamsterpets",
+        "farm_and_charm",
+        "vinery"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:stockpot",
+  "cooking_bubble_color": 16777215,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/default_cooking",
+  "finished_bubble_color": 9415279,
+  "finished_texture": "kaleidoscope_cookery:stockpot/default_finished_star",
+  "ingredients": [
+    {
+      "item": "adorablehamsterpets:green_beans"
+    },
+    {
+      "item": "adorablehamsterpets:green_beans"
+    },
+    {
+      "item": "adorablehamsterpets:green_beans"
+    },
+    {
+      "item": "adorablehamsterpets:green_beans"
+    },
+    {
+      "item": "farm_and_charm:yeast"
+    },
+    {
+      "item": "vinery:apple_cider"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:bean_juice"
+  },
+  "soup_base": "minecraft:water",
+  "time": 300
+}

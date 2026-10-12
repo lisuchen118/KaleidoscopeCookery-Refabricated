@@ -856,4 +856,275 @@ public interface ModFoods {
     FoodProperties COLD_CUT_HAM_SLICES_BLOCK = (new FoodProperties.Builder())
             .nutrition(4).saturationMod(0.8f)
             .alwaysEat().build();
+
+    // 花刀鳕鱼
+    FoodProperties FLOWER_KNIFE_COD = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(0.3F)
+            .alwaysEat().build();
+
+    // 像素汤
+    FoodProperties PIXEL_SOUP_BLOCK = (new FoodProperties.Builder())
+            .nutrition(1).saturationMod(0.5F)
+            .alwaysEat().build();
+
+    FoodProperties PIXEL_SOUP_ITEM = (new FoodProperties.Builder())
+            .nutrition(3).saturationMod(0.5F)
+            .alwaysEat().build();
+
+    // 彩虹豚骨拉面
+    FoodProperties RAINBOW_PORK_BONE_RAMEN_BLOCK = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.2F)
+            .alwaysEat().build();
+
+    FoodProperties RAINBOW_PORK_BONE_RAMEN_ITEM = (new FoodProperties.Builder())
+            .nutrition(10).saturationMod(0.2F)
+            .alwaysEat().build();
+
+    // 脑花浓汤
+    FoodProperties BRAIN_SOUP_BLOCK = (new FoodProperties.Builder())
+            .nutrition(3).saturationMod(0.3F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 2400), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties BRAIN_SOUP_ITEM = (new FoodProperties.Builder())
+            .nutrition(8).saturationMod(0.3F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 2400), 1.0F)
+            .alwaysEat().build();
+
+    // 豆汁
+    FoodProperties BEAN_JUICE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(0.3F)
+            .effect(new MobEffectInstance(CONFUSION, 200), 1.0F)
+            .effect(new MobEffectInstance(WATER_BREATHING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties BEAN_JUICE_ITEM = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.3F)
+            .effect(new MobEffectInstance(CONFUSION, 200), 1.0F)
+            .effect(new MobEffectInstance(WATER_BREATHING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    // 铁锅炖厨子
+    FoodProperties HOT_MEW_SOUP_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.5F)
+            .effect(new MobEffectInstance(DAMAGE_BOOST, 600, 1), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 1800), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties HOT_MEW_SOUP_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(DAMAGE_BOOST, 600, 1), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 1800), 1.0F)
+            .alwaysEat().build();
+
+    // 玫瑰酒酿妖妖
+    FoodProperties WYAOW_ROSE_WINE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.3F)
+            .effect(new MobEffectInstance(LUCK, 2400), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties WYAOW_ROSE_WINE_ITEM = (new FoodProperties.Builder())
+            .nutrition(10).saturationMod(0.3F)
+            .effect(new MobEffectInstance(LUCK, 2400), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    // 香橙红茶米线
+    FoodProperties ORANGE_BLACK_TEA_MIXIAN_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.5F)
+            .effect(new MobEffectInstance(REGENERATION, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(ABSORPTION, 1200), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 1200), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SLOWDOWN, 1200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties ORANGE_BLACK_TEA_MIXIAN_ITEM = (new FoodProperties.Builder())
+            .nutrition(15).saturationMod(0.5F)
+            .effect(new MobEffectInstance(REGENERATION, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(ABSORPTION, 1200), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 1200), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SLOWDOWN, 1200), 1.0F)
+            .alwaysEat().build();
+
+    // 龙鳞葡萄酿风子
+    FoodProperties PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(7).saturationMod(0.5F)
+            .effect(new MobEffectInstance(REGENERATION, 1800), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 1200, 3), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SLOWDOWN, 1800, 3), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 200), 1.0F)
+            .effect(new MobEffectInstance(HEALTH_BOOST, 2400, 1), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties PLANTRIAN_DRAGON_SCALE_GRAPE_WINE_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(REGENERATION, 1800, 4), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 1200, 3), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SLOWDOWN, 1800, 3), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 200), 1.0F)
+            .effect(new MobEffectInstance(HEALTH_BOOST, 2400, 4), 1.0F)
+            .alwaysEat().build();
+
+    // 炭烤米沙
+    FoodProperties CHARCOAL_BROILING_MISHA_BLOCK = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.3F)
+            .effect(new MobEffectInstance(LUCK, 2400), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties CHARCOAL_BROILING_MISHA_ITEM = (new FoodProperties.Builder())
+            .nutrition(10).saturationMod(0.3F)
+            .effect(new MobEffectInstance(LUCK, 2400), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .effect(new MobEffectInstance(GLOWING, 2400), 1.0F)
+            .alwaysEat().build();
+
+    // 紫薯泥
+    FoodProperties PURPLE_POTATO_PUREE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(0.5F)
+            .effect(new MobEffectInstance(FLATULENCE.get(), 600), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties PURPLE_POTATO_PUREE_ITEM = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.5F)
+            .effect(new MobEffectInstance(FLATULENCE.get(), 600), 1.0F)
+            .alwaysEat().build();
+
+    // 巧克力西瓜
+    FoodProperties CHOCOLATE_WATERMELON = (new FoodProperties.Builder())
+            .nutrition(3).saturationMod(0.5F)
+            .effect(new MobEffectInstance(LEVITATION, 200), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 300), 1.0F)
+            .alwaysEat().build();
+
+    // 麻辣智子头
+    FoodProperties SPICY_PROTON_HEAD_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.5F)
+            .effect(new MobEffectInstance(HUNGER, 200), 0.5F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 2400), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties SPICY_PROTON_HEAD_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(HUNGER, 200), 0.5F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 2400), 1.0F)
+            .alwaysEat().build();
+
+    // 九转大肠
+    FoodProperties DELICIOUS_INTESTINE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(0.3F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(BLINDNESS, 200), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SPEED, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(JUMP, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_BOOST, 1200, 1), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties DELICIOUS_INTESTINE_ITEM = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.3F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(BLINDNESS, 200), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SPEED, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(JUMP, 1200, 1), 1.0F)
+            .effect(new MobEffectInstance(DAMAGE_BOOST, 1200, 1), 1.0F)
+            .alwaysEat().build();
+
+    // 西湖醋鱼
+    FoodProperties WEST_LAKE_FISH_BLOCK = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.4F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties WEST_LAKE_FISH_ITEM = (new FoodProperties.Builder())
+            .nutrition(12).saturationMod(0.4F)
+            .effect(new MobEffectInstance(POISON, 200), 1.0F)
+            .effect(new MobEffectInstance(NIGHT_VISION, 1200), 1.0F)
+            .alwaysEat().build();
+
+    // 松鼠桂鱼
+    FoodProperties SQUIRREL_FISH_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.5F)
+            .effect(new MobEffectInstance(WARMTH.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(SATIATED_SHIELD.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(VIGOR.get(), 1200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties SQUIRREL_FISH_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(WARMTH.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(SATIATED_SHIELD.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(VIGOR.get(), 1200), 1.0F)
+            .alwaysEat().build();
+
+    // 羊排手抓饭
+    FoodProperties LAMB_CHOP_PILAF_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.3F)
+            .effect(new MobEffectInstance(VIGOR.get(), 2400), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 600), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties LAMB_CHOP_PILAF_ITEM = (new FoodProperties.Builder())
+            .nutrition(15).saturationMod(0.3F)
+            .effect(new MobEffectInstance(VIGOR.get(), 2400), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 600), 1.0F)
+            .alwaysEat().build();
+
+    // 草莓南瓜派
+    FoodProperties STRAWBERRY_PUMPKIN_PIE = (new FoodProperties.Builder())
+            .nutrition(12).saturationMod(0.4F)
+            .alwaysEat().build();
+
+    // 蓝纹奶酪
+    FoodProperties BLUE_CHEESE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(1).saturationMod(0.4F)
+            .effect(new MobEffectInstance(CONFUSION, 400), 1.0F)
+            .effect(new MobEffectInstance(LUCK, 600), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 1200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties BLUE_CHEESE_ITEM = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.4F)
+            .effect(new MobEffectInstance(CONFUSION, 400), 1.0F)
+            .effect(new MobEffectInstance(LUCK, 600), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 1200), 1.0F)
+            .alwaysEat().build();
+
+    // 糕中藏尸？
+    FoodProperties OCTOBER_IN_CAKE_BLOCK = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.5F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 2400), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 600), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SPEED, 1200), 1.0F)
+            .effect(new MobEffectInstance(CONFUSION, 200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties OCTOBER_IN_CAKE_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(DAMAGE_RESISTANCE, 2400), 1.0F)
+            .effect(new MobEffectInstance(FIRE_RESISTANCE, 600), 1.0F)
+            .effect(new MobEffectInstance(MOVEMENT_SPEED, 1200), 1.0F)
+            .effect(new MobEffectInstance(CONFUSION, 200), 1.0F)
+            .alwaysEat().build();
+
+    // 呆落蓝莓布丁
+    FoodProperties CHEXIAYA_BLUEBERRY_PUDDING_BLOCK = (new FoodProperties.Builder())
+            .nutrition(7).saturationMod(0.5F)
+            .effect(new MobEffectInstance(WARMTH.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(VIGOR.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 1200), 1.0F)
+            .alwaysEat().build();
+
+    FoodProperties CHEXIAYA_BLUEBERRY_PUDDING_ITEM = (new FoodProperties.Builder())
+            .nutrition(20).saturationMod(0.5F)
+            .effect(new MobEffectInstance(WARMTH.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(VIGOR.get(), 1200), 1.0F)
+            .effect(new MobEffectInstance(SATURATION, 1200), 1.0F)
+            .alwaysEat().build();
 }

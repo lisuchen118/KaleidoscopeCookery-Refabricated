@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm",
+        "bakery"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "S": {
+      "item": "farm_and_charm:strawberry"
+    },
+    "J": {
+      "item": "bakery:strawberry_jam"
+    }
+  },
+  "pattern": [
+    "PS",
+    "JJ"
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:strawberry_pumpkin_pie"
+  },
+  "show_notification": true
+}

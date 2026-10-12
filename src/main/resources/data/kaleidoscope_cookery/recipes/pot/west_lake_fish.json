@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vinery",
+        "meadow"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "vinery:apple_cider"
+    },
+    {
+      "item": "vinery:apple_cider"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:west_lake_fish"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

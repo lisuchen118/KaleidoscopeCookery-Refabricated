@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight",
+        "meadow"
+      ]
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "tag": "forge:cooked_rice"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_cookery:lamb_chop_pilaf"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}
